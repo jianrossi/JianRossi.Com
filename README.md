@@ -1,2 +1,0 @@
-# JianRossi.Com
-My Website
