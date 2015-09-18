@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /img
+Disallow: /js
+Disallow: /css
+
+Sitemap: http://www.jianrossi.com/sitemap.xml
