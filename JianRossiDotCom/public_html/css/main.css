@@ -28,6 +28,12 @@ table { border-collapse: collapse; border-spacing: 0; }
 @-o-viewport{width:device-width}
 @viewport{width:device-width}
 
+
+/*--- Custom - Author: Jian Rossi ---*/
+
+    navmenu.custom {
+        float: left;   
+    }
 /*--- SITE WIDE ---*/
 
     /* Set the background and font color for the html and body, if you don't have a different bkg for the body set both to be the same */
