@@ -30,10 +30,47 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 
 /*--- Custom - Author: Jian Rossi ---*/
+/* pixels/16=em */
 
+    
+    .top {
+        background-color: azure;
+        height: 4.25em;
+        padding-top: 1.25em;
+        line-height: 3.125em;
+        overflow: hidden;
+    }
+
+    .jr-container {
+        padding: 0.0625em 1em;        
+    }
+
+    .jr-container:after, .jr-row:after, 
+    .jr-row-padding:after, .jr-topnav:after, 
+    .jr-clear:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .jr-wide {
+        font-family: 'Josefin Sans', sans-serif !important;
+        letter-spacing: 0.25em;
+    }
+    
+    .jr-right {
+        float: right !important;
+    }
+
+    .toptext {
+        width: 100%;
+        text-align: center;
+    }
+    
     .panel {
         background-color:#f1f1f1;
-        padding:1px 16px
+        padding:1px 16px;
+        width: 50%;
     }
     
     .quoteArea {
@@ -46,10 +83,17 @@ table { border-collapse: collapse; border-spacing: 0; }
         border-left:4px solid #009688;
         word-wrap:break-word
     }
+
+    #copyright {
+           font-family: 'Josefin Sans', sans-serif;
+           font-size: 0.75em;
+           color: cornsilk;
+    }
+
 /*--- SITE WIDE ---*/
 
     /* Set the background and font color for the html and body, if you don't have a different bkg for the body set both to be the same */
-    html { color: #333; background-color:#fff; }
+    html { color: #333; } /*background-color:#fff; }*/
     body { font-style:normal; background: #FFF; color: #333; webkit-text-size-adjust: none; }
 
     /* Sets font family, size, width, and margins for the page */
@@ -59,7 +103,8 @@ table { border-collapse: collapse; border-spacing: 0; }
     h1, h2, h3, h4, h5, h6 { font-family: 'StMarieThin', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', helvetica, sans-serif; }
     b, strong { font-weight:bold; }
     /* Links */
-    a:link, a:visited { text-decoration:none; }
+    a:link { text-decoration:none; color: cornsilk; }
+    a:visited { text-decoration:none; color: aquamarine; }
     #navmenu a:link, a:visited { font-weight: 900; font-size:15px; }
     a:hover, a:active, a:focus { color: #fff; text-decoration: none; }
     h1 { font-size:2rem; font-family:'adelle'; font-weight:100; margin-bottom:5px; line-height:2rem; }
